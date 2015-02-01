@@ -2,7 +2,7 @@
 This is the reckoning of a space game.
 
 **
-This game requires a mac computer with Maverics Operating system or later to run. Click on the Space The Reckoning.app
+This game requires a mac computer with Mavericks Operating system or later to run. Click on the Space The Reckoning.app
 to start the game.
 **
 
