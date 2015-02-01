@@ -8,10 +8,6 @@
 		<data>
 		ZL9R4xjVl8URvChmUl3C2HHa0tU=
 		</data>
-		<key>Resources/Assets.car</key>
-		<data>
-		tnDiW+QeL2YxrfhfJlpt7vMJXOg=
-		</data>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<dict>
 			<key>hash</key>
@@ -64,6 +60,10 @@
 		<key>Resources/outSpace.jpg</key>
 		<data>
 		H0C9K44r1cEQH1o59K6Qk3EfgPI=
+		</data>
+		<key>Resources/save.plist</key>
+		<data>
+		qQQZp2NMhoTFiw+A7zk5PUC8xT0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -72,10 +72,6 @@
 		<data>
 		ZL9R4xjVl8URvChmUl3C2HHa0tU=
 		</data>
-		<key>Resources/Assets.car</key>
-		<data>
-		tnDiW+QeL2YxrfhfJlpt7vMJXOg=
-		</data>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<dict>
 			<key>hash</key>
@@ -128,6 +124,10 @@
 		<key>Resources/outSpace.jpg</key>
 		<data>
 		H0C9K44r1cEQH1o59K6Qk3EfgPI=
+		</data>
+		<key>Resources/save.plist</key>
+		<data>
+		qQQZp2NMhoTFiw+A7zk5PUC8xT0=
 		</data>
 	</dict>
 	<key>rules</key>
