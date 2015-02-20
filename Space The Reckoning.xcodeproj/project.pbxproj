@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E80CA4BB1A7D5092005B6C99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E80CA4BA1A7D5092005B6C99 /* AppDelegate.m */; };
+		E80CA4BD1A7D5092005B6C99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E80CA4BC1A7D5092005B6C99 /* main.m */; };
+		E80CA4C01A7D5092005B6C99 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E80CA4BF1A7D5092005B6C99 /* GameScene.m */; };
+		E80CA4C21A7D5092005B6C99 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E80CA4C11A7D5092005B6C99 /* GameScene.sks */; };
+		E80CA4C41A7D5093005B6C99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80CA4C31A7D5093005B6C99 /* Images.xcassets */; };
+		E80CA4C71A7D5093005B6C99 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E80CA4C51A7D5093005B6C99 /* MainMenu.xib */; };
+		E80CA4D31A7D5093005B6C99 /* Space_The_ReckoningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E80CA4D21A7D5093005B6C99 /* Space_The_ReckoningTests.m */; };
+		E80CA4DE1A7D5FFC005B6C99 /* STRCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = E80CA4DD1A7D5FFC005B6C99 /* STRCharacter.m */; };
+		E80CA4E11A7D6874005B6C99 /* Weapons.m in Sources */ = {isa = PBXBuildFile; fileRef = E80CA4E01A7D6874005B6C99 /* Weapons.m */; };
+		E80CA4E41A7D996F005B6C99 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80CA4E31A7D996F005B6C99 /* AVFoundation.framework */; };
+		E80CA4E61A7D99F8005B6C99 /* 09 Selection.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E80CA4E51A7D99F8005B6C99 /* 09 Selection.m4a */; };
+		E80CA4E81A7D9C22005B6C99 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = E80CA4E71A7D9C22005B6C99 /* Spaceship.png */; };
+		E80CA4EA1A7D9CC4005B6C99 /* Spaceship_tut.png in Resources */ = {isa = PBXBuildFile; fileRef = E80CA4E91A7D9CC4005B6C99 /* Spaceship_tut.png */; };
+		E80CA4EC1A7D9E8A005B6C99 /* Space.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E80CA4EB1A7D9E8A005B6C99 /* Space.jpg */; };
+		E80CA4F01A7DA896005B6C99 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = E80CA4EF1A7DA896005B6C99 /* bullet.png */; };
+		E80CA4F31A7DAD47005B6C99 /* FinalView.m in Sources */ = {isa = PBXBuildFile; fileRef = E80CA4F21A7DAD47005B6C99 /* FinalView.m */; };
+		E80CA4F51A7DB1A7005B6C99 /* outSpace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E80CA4F41A7DB1A7005B6C99 /* outSpace.jpg */; };
+		E80CA4F71A7DB514005B6C99 /* Snoop Dogg Smoke weed every day (dubstep remix).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E80CA4F61A7DB514005B6C99 /* Snoop Dogg Smoke weed every day (dubstep remix).mp3 */; };
+		E80CA4FB1A7DBF53005B6C99 /* dorito.png in Resources */ = {isa = PBXBuildFile; fileRef = E80CA4FA1A7DBF53005B6C99 /* dorito.png */; };
+		E80CA4FD1A7DCA61005B6C99 /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = E80CA4FC1A7DCA61005B6C99 /* Orange.png */; };
+		E80CA4FF1A7DCC77005B6C99 /* missile_explode.wav in Resources */ = {isa = PBXBuildFile; fileRef = E80CA4FE1A7DCC77005B6C99 /* missile_explode.wav */; };
+		E80CA5011A7DCDAD005B6C99 /* Spaceship_tut_thin.png in Resources */ = {isa = PBXBuildFile; fileRef = E80CA5001A7DCDAD005B6C99 /* Spaceship_tut_thin.png */; };
+		E815E7061A7DE4AD00809345 /* save.plist in Resources */ = {isa = PBXBuildFile; fileRef = E815E7051A7DE4AD00809345 /* save.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E80CA4CD1A7D5093005B6C99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E80CA4AC1A7D5092005B6C99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E80CA4B31A7D5092005B6C99;
+			remoteInfo = "Space The Reckoning";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E80CA4B41A7D5092005B6C99 /* Space The Reckoning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space The Reckoning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80CA4B81A7D5092005B6C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E80CA4B91A7D5092005B6C99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E80CA4BA1A7D5092005B6C99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E80CA4BC1A7D5092005B6C99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E80CA4BE1A7D5092005B6C99 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		E80CA4BF1A7D5092005B6C99 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		E80CA4C11A7D5092005B6C99 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E80CA4C31A7D5093005B6C99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E80CA4C61A7D5093005B6C99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E80CA4CC1A7D5093005B6C99 /* Space The ReckoningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space The ReckoningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80CA4D11A7D5093005B6C99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E80CA4D21A7D5093005B6C99 /* Space_The_ReckoningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_The_ReckoningTests.m; sourceTree = "<group>"; };
+		E80CA4DC1A7D5FFC005B6C99 /* STRCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRCharacter.h; sourceTree = "<group>"; };
+		E80CA4DD1A7D5FFC005B6C99 /* STRCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRCharacter.m; sourceTree = "<group>"; };
+		E80CA4DF1A7D6874005B6C99 /* Weapons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weapons.h; sourceTree = "<group>"; };
+		E80CA4E01A7D6874005B6C99 /* Weapons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weapons.m; sourceTree = "<group>"; };
+		E80CA4E21A7D8DCA005B6C99 /* gameEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameEnums.h; sourceTree = "<group>"; };
+		E80CA4E31A7D996F005B6C99 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E80CA4E51A7D99F8005B6C99 /* 09 Selection.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "09 Selection.m4a"; sourceTree = "<group>"; };
+		E80CA4E71A7D9C22005B6C99 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		E80CA4E91A7D9CC4005B6C99 /* Spaceship_tut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship_tut.png; sourceTree = "<group>"; };
+		E80CA4EB1A7D9E8A005B6C99 /* Space.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Space.jpg; sourceTree = "<group>"; };
+		E80CA4EF1A7DA896005B6C99 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		E80CA4F11A7DAD47005B6C99 /* FinalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalView.h; sourceTree = "<group>"; };
+		E80CA4F21A7DAD47005B6C99 /* FinalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalView.m; sourceTree = "<group>"; };
+		E80CA4F41A7DB1A7005B6C99 /* outSpace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = outSpace.jpg; sourceTree = "<group>"; };
+		E80CA4F61A7DB514005B6C99 /* Snoop Dogg Smoke weed every day (dubstep remix).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Snoop Dogg Smoke weed every day (dubstep remix).mp3"; sourceTree = "<group>"; };
+		E80CA4FA1A7DBF53005B6C99 /* dorito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dorito.png; sourceTree = "<group>"; };
+		E80CA4FC1A7DCA61005B6C99 /* Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orange.png; sourceTree = "<group>"; };
+		E80CA4FE1A7DCC77005B6C99 /* missile_explode.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = missile_explode.wav; sourceTree = "<group>"; };
+		E80CA5001A7DCDAD005B6C99 /* Spaceship_tut_thin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship_tut_thin.png; sourceTree = "<group>"; };
+		E815E7051A7DE4AD00809345 /* save.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = save.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E80CA4B11A7D5092005B6C99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80CA4E41A7D996F005B6C99 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80CA4C91A7D5093005B6C99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E80CA4AB1A7D5092005B6C99 = {
+			isa = PBXGroup;
+			children = (
+				E80CA4E31A7D996F005B6C99 /* AVFoundation.framework */,
+				E80CA4B61A7D5092005B6C99 /* Space The Reckoning */,
+				E80CA4CF1A7D5093005B6C99 /* Space The ReckoningTests */,
+				E80CA4B51A7D5092005B6C99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E80CA4B51A7D5092005B6C99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E80CA4B41A7D5092005B6C99 /* Space The Reckoning.app */,
+				E80CA4CC1A7D5093005B6C99 /* Space The ReckoningTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E80CA4B61A7D5092005B6C99 /* Space The Reckoning */ = {
+			isa = PBXGroup;
+			children = (
+				E8DF41B31A8515D600DFA35C /* assets */,
+				E80CA4C31A7D5093005B6C99 /* Images.xcassets */,
+				E80CA4C51A7D5093005B6C99 /* MainMenu.xib */,
+				E80CA4B71A7D5092005B6C99 /* Supporting Files */,
+				E8DF41B51A85162A00DFA35C /* Objects */,
+				E8DF41B41A8515F800DFA35C /* Views */,
+				E815E7051A7DE4AD00809345 /* save.plist */,
+			);
+			path = "Space The Reckoning";
+			sourceTree = "<group>";
+		};
+		E80CA4B71A7D5092005B6C99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E80CA4B91A7D5092005B6C99 /* AppDelegate.h */,
+				E80CA4BA1A7D5092005B6C99 /* AppDelegate.m */,
+				E80CA4E21A7D8DCA005B6C99 /* gameEnums.h */,
+				E80CA4B81A7D5092005B6C99 /* Info.plist */,
+				E80CA4BC1A7D5092005B6C99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E80CA4CF1A7D5093005B6C99 /* Space The ReckoningTests */ = {
+			isa = PBXGroup;
+			children = (
+				E80CA4D21A7D5093005B6C99 /* Space_The_ReckoningTests.m */,
+				E80CA4D01A7D5093005B6C99 /* Supporting Files */,
+			);
+			path = "Space The ReckoningTests";
+			sourceTree = "<group>";
+		};
+		E80CA4D01A7D5093005B6C99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E80CA4D11A7D5093005B6C99 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8DF41B31A8515D600DFA35C /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				E80CA5001A7DCDAD005B6C99 /* Spaceship_tut_thin.png */,
+				E80CA4FE1A7DCC77005B6C99 /* missile_explode.wav */,
+				E80CA4FC1A7DCA61005B6C99 /* Orange.png */,
+				E80CA4FA1A7DBF53005B6C99 /* dorito.png */,
+				E80CA4F61A7DB514005B6C99 /* Snoop Dogg Smoke weed every day (dubstep remix).mp3 */,
+				E80CA4EF1A7DA896005B6C99 /* bullet.png */,
+				E80CA4F41A7DB1A7005B6C99 /* outSpace.jpg */,
+				E80CA4EB1A7D9E8A005B6C99 /* Space.jpg */,
+				E80CA4E91A7D9CC4005B6C99 /* Spaceship_tut.png */,
+				E80CA4E71A7D9C22005B6C99 /* Spaceship.png */,
+				E80CA4E51A7D99F8005B6C99 /* 09 Selection.m4a */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		E8DF41B41A8515F800DFA35C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E80CA4BE1A7D5092005B6C99 /* GameScene.h */,
+				E80CA4BF1A7D5092005B6C99 /* GameScene.m */,
+				E80CA4C11A7D5092005B6C99 /* GameScene.sks */,
+				E80CA4F11A7DAD47005B6C99 /* FinalView.h */,
+				E80CA4F21A7DAD47005B6C99 /* FinalView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		E8DF41B51A85162A00DFA35C /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				E80CA4DC1A7D5FFC005B6C99 /* STRCharacter.h */,
+				E80CA4DD1A7D5FFC005B6C99 /* STRCharacter.m */,
+				E80CA4DF1A7D6874005B6C99 /* Weapons.h */,
+				E80CA4E01A7D6874005B6C99 /* Weapons.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E80CA4B31A7D5092005B6C99 /* Space The Reckoning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80CA4D61A7D5093005B6C99 /* Build configuration list for PBXNativeTarget "Space The Reckoning" */;
+			buildPhases = (
+				E80CA4B01A7D5092005B6C99 /* Sources */,
+				E80CA4B11A7D5092005B6C99 /* Frameworks */,
+				E80CA4B21A7D5092005B6C99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space The Reckoning";
+			productName = "Space The Reckoning";
+			productReference = E80CA4B41A7D5092005B6C99 /* Space The Reckoning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E80CA4CB1A7D5093005B6C99 /* Space The ReckoningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80CA4D91A7D5093005B6C99 /* Build configuration list for PBXNativeTarget "Space The ReckoningTests" */;
+			buildPhases = (
+				E80CA4C81A7D5093005B6C99 /* Sources */,
+				E80CA4C91A7D5093005B6C99 /* Frameworks */,
+				E80CA4CA1A7D5093005B6C99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E80CA4CE1A7D5093005B6C99 /* PBXTargetDependency */,
+			);
+			name = "Space The ReckoningTests";
+			productName = "Space The ReckoningTests";
+			productReference = E80CA4CC1A7D5093005B6C99 /* Space The ReckoningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E80CA4AC1A7D5092005B6C99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Joshua Matthews";
+				TargetAttributes = {
+					E80CA4B31A7D5092005B6C99 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E80CA4CB1A7D5093005B6C99 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E80CA4B31A7D5092005B6C99;
+					};
+				};
+			};
+			buildConfigurationList = E80CA4AF1A7D5092005B6C99 /* Build configuration list for PBXProject "Space The Reckoning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E80CA4AB1A7D5092005B6C99;
+			productRefGroup = E80CA4B51A7D5092005B6C99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E80CA4B31A7D5092005B6C99 /* Space The Reckoning */,
+				E80CA4CB1A7D5093005B6C99 /* Space The ReckoningTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E80CA4B21A7D5092005B6C99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80CA4FF1A7DCC77005B6C99 /* missile_explode.wav in Resources */,
+				E80CA4E81A7D9C22005B6C99 /* Spaceship.png in Resources */,
+				E80CA4C21A7D5092005B6C99 /* GameScene.sks in Resources */,
+				E80CA4F51A7DB1A7005B6C99 /* outSpace.jpg in Resources */,
+				E80CA4F71A7DB514005B6C99 /* Snoop Dogg Smoke weed every day (dubstep remix).mp3 in Resources */,
+				E80CA4EC1A7D9E8A005B6C99 /* Space.jpg in Resources */,
+				E80CA4FD1A7DCA61005B6C99 /* Orange.png in Resources */,
+				E80CA4FB1A7DBF53005B6C99 /* dorito.png in Resources */,
+				E80CA4EA1A7D9CC4005B6C99 /* Spaceship_tut.png in Resources */,
+				E80CA5011A7DCDAD005B6C99 /* Spaceship_tut_thin.png in Resources */,
+				E80CA4C41A7D5093005B6C99 /* Images.xcassets in Resources */,
+				E80CA4F01A7DA896005B6C99 /* bullet.png in Resources */,
+				E80CA4C71A7D5093005B6C99 /* MainMenu.xib in Resources */,
+				E80CA4E61A7D99F8005B6C99 /* 09 Selection.m4a in Resources */,
+				E815E7061A7DE4AD00809345 /* save.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80CA4CA1A7D5093005B6C99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E80CA4B01A7D5092005B6C99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80CA4BD1A7D5092005B6C99 /* main.m in Sources */,
+				E80CA4C01A7D5092005B6C99 /* GameScene.m in Sources */,
+				E80CA4BB1A7D5092005B6C99 /* AppDelegate.m in Sources */,
+				E80CA4F31A7DAD47005B6C99 /* FinalView.m in Sources */,
+				E80CA4E11A7D6874005B6C99 /* Weapons.m in Sources */,
+				E80CA4DE1A7D5FFC005B6C99 /* STRCharacter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80CA4C81A7D5093005B6C99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80CA4D31A7D5093005B6C99 /* Space_The_ReckoningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E80CA4CE1A7D5093005B6C99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E80CA4B31A7D5092005B6C99 /* Space The Reckoning */;
+			targetProxy = E80CA4CD1A7D5093005B6C99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E80CA4C51A7D5093005B6C99 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E80CA4C61A7D5093005B6C99 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E80CA4D41A7D5093005B6C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E80CA4D51A7D5093005B6C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E80CA4D71A7D5093005B6C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Space The Reckoning/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E80CA4D81A7D5093005B6C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Space The Reckoning/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E80CA4DA1A7D5093005B6C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Space The ReckoningTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space The Reckoning.app/Contents/MacOS/Space The Reckoning";
+			};
+			name = Debug;
+		};
+		E80CA4DB1A7D5093005B6C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Space The ReckoningTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space The Reckoning.app/Contents/MacOS/Space The Reckoning";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E80CA4AF1A7D5092005B6C99 /* Build configuration list for PBXProject "Space The Reckoning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80CA4D41A7D5093005B6C99 /* Debug */,
+				E80CA4D51A7D5093005B6C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E80CA4D61A7D5093005B6C99 /* Build configuration list for PBXNativeTarget "Space The Reckoning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80CA4D71A7D5093005B6C99 /* Debug */,
+				E80CA4D81A7D5093005B6C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E80CA4D91A7D5093005B6C99 /* Build configuration list for PBXNativeTarget "Space The ReckoningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80CA4DA1A7D5093005B6C99 /* Debug */,
+				E80CA4DB1A7D5093005B6C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E80CA4AC1A7D5092005B6C99 /* Project object */;
+}
